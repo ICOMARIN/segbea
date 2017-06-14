@@ -1,5 +1,5 @@
 		<div class="sidebar-shortcuts" id="sidebar-shortcuts">
-					<div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
+					{{-- <div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
 						<button class="btn btn-success">
 							<i class="ace-icon fa fa-signal"></i>
 						</button>
@@ -15,9 +15,9 @@
 						<button class="btn btn-danger">
 							<i class="ace-icon fa fa-cogs"></i>
 						</button>
-					</div>
+					</div> --}}
 
-					<div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
+					{{-- <div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
 						<span class="btn btn-success"></span>
 
 						<span class="btn btn-info"></span>
@@ -25,7 +25,7 @@
 						<span class="btn btn-warning"></span>
 
 						<span class="btn btn-danger"></span>
-					</div>
+					</div> --}}
 				</div><!-- /.sidebar-shortcuts -->
 
 				<ul class="nav nav-list">
@@ -52,7 +52,20 @@
 						<b class="arrow"></b>
 
 						<ul class="submenu">
+							
 							<li class="">
+								<a href="{{ route('alumnos.index') }}" >
+									<i class="menu-icon fa fa-caret-right"></i>
+									Lista									
+								</a>								
+							</li>
+							<li class="">
+								<a href="{{ route('alumnos.create') }}" >
+									<i class="menu-icon fa fa-caret-right"></i>
+									Nuevo									
+								</a>								
+							</li>
+							{{-- <li class="">
 								<a href="#" class="dropdown-toggle">
 									<i class="menu-icon fa fa-caret-right"></i>
 									Datos Personales									
@@ -71,7 +84,7 @@
 									<i class="menu-icon fa fa-caret-right"></i>
 									Representante									
 								</a>								
-							</li>
+							</li> --}}
 
 						</ul>
 					</li>

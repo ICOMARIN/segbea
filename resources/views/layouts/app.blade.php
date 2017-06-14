@@ -88,6 +88,10 @@
         <!-- ace scripts -->
         <script src="{{ asset('js/ace-elements.min.js') }}"></script>
         <script src="{{ asset('js/ace.min.js') }}"></script>
+        <script src="{{ asset('js/app.js') }}"></script>
+        <script src="{{ asset('js/jquery.dataTables.min.js') }}"></script>
+
+        
 
         <!-- inline scripts related to this page -->
     </body>
