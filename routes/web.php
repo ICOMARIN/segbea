@@ -27,6 +27,8 @@ Route::get('becas/ayudantia', 'BecasController@index');
 Route::get('becas/ayudantia/{id}', 'BecasController@showAyudantia');
 Route::get('becas/cerate-ayudantia', 'BecasController@cerateAyudantia');
 Route::post('becas/store-ayudantia', 'BecasController@storeAyudantia');
+Route::get('becas/estudio', 'BecasController@indexEstudio');
+
 
 
 

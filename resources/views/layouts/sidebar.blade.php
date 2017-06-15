@@ -31,7 +31,7 @@
 				<ul class="nav nav-list">
 					{{-- opciones de Inicio --}}
 					<li class="">
-						<a href="index.html">
+						<a href="#">
 							<i class="menu-icon fa fa-tachometer"></i>
 							<span class="menu-text"> Dashboard </span>
 						</a>
@@ -103,7 +103,7 @@
 
 						<ul class="submenu">
 							<li class="">
-								<a href="#" >
+								<a href="{{ url('becas/estudio') }}" >
 									<i class="menu-icon fa fa-caret-right"></i>
 									Estudio									
 								</a>								

@@ -17,7 +17,7 @@ class BecasController extends Controller
      */
     public function index(Alumnos $alumnos)
     {
-        $data = Alumnos::join('ayudantias','alumnos.id','=','ayudantias.alumnos_id')->orderBy('porcentage','desc')->get();
+        $data = Alumnos::join('ayudantias','ayudantias.alumnos_id','=','alumnos.id')->orderBy('porcentage','desc')->get();
         return View('becas.index')->with('alumnos', $data);
     }
 
@@ -95,9 +95,10 @@ class BecasController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function indexEstudio(Alumnos $alumnos)
     {
-        //
+        $data = Alumnos::join('notas','alumnos.id','=','notas.alumnos_id')->orderBy('nota','desc')->get();
+        return View('becas.estudio')->with('alumnos', $data);
     }
 
     /**

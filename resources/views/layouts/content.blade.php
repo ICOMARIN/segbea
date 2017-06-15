@@ -1,6 +1,6 @@
           <div class="main-content">
                 <div class="main-content-inner">
-                    <div class="breadcrumbs ace-save-state" id="breadcrumbs">
+                   {{--  <div class="breadcrumbs ace-save-state" id="breadcrumbs">
                         <ul class="breadcrumb">
                             <li>
                                 <i class="ace-icon fa fa-home home-icon"></i>
@@ -20,8 +20,8 @@
                                     <i class="ace-icon fa fa-search nav-search-icon"></i>
                                 </span>
                             </form>
-                        </div><!-- /.nav-search --> --}}
-                    </div>
+                        </div><!-- /.nav-search --> 
+                    </div> --}}
 
                     <div class="page-content">
                    
