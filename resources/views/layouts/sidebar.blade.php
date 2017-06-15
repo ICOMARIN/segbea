@@ -43,7 +43,7 @@
 					{{-- opciones de Alumno --}}
 					<li class="">
 						<a href="#" class="dropdown-toggle">
-							<i class="menu-icon fa fa-desktop"></i>
+							<i class="menu-icon fa fa-users "></i>
 							<span class="menu-text">
 								Alumnos
 							</span>
@@ -119,6 +119,18 @@
 						</ul>
 					</li>
 					{{-- fin opciones de Becas --}}
+
+					{{-- opciones de Reportes --}}
+					<li class="">
+						<a href="#" class="">
+							<i class="menu-icon fa fa-book"></i>
+							<span class="menu-text">
+								Reportes
+							</span>
+							
+						</a>
+					</li>
+					{{-- fin opciones de Reportes --}}
 					
 				</ul><!-- /.nav-list -->
 
