@@ -36,13 +36,14 @@
 				<td>{{ $alumno->nro_cuenta }}</td>
 
 				<td>
-					<a href="{{ route('alumnos.show',$alumno->id) }}" class="btn btn-xs btn-info"><i class="ace-icon fa fa-eye "></i></a>
-					<a href="{{ route('alumnos.edit',$alumno->id) }}" class="btn btn-xs btn-success"><i class="ace-icon fa fa-pencil"></i></a>
-					<a href="{{ route('alumnos.destroy',$alumno->id) }}" class="btn btn-xs btn-danger"><i class="ace-icon fa fa-trash-o"></i></a>
+					<a href="{{ route('alumnos.show',$alumno->id) }}" class="btn btn-xs btn-info" title="ver"><i class="ace-icon fa fa-eye "></i></a>
+					<a href="{{ route('alumnos.edit',$alumno->id) }}" class="btn btn-xs btn-success" title="editar"><i class="ace-icon fa fa-pencil"></i></a>
+					<a href="{{ url('alumnos/cargar-nota',$alumno->id) }}" class="btn btn-xs btn-primary" title="cargar nota"><i class="ace-icon fa fa-plus"></i></a>
+					<a href="{{ route('alumnos.destroy',$alumno->id) }}" class="btn btn-xs btn-danger" title="eliminar"><i class="ace-icon fa fa-trash-o"></i></a>
 
 					
 															
-					eliminar
+					
 				</td>
 			</tr>
 		@endforeach

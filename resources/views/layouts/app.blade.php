@@ -41,6 +41,9 @@
         <script src="{{ asset('js/html5shiv.min.js') }}"></script>
         <script src="{{ asset('js/respond.min.js') }}"></script>
         <![endif]-->
+         @section('link')
+
+        @show
     </head>
 
     <body class="no-skin">
@@ -92,7 +95,9 @@
         <script src="{{ asset('js/jquery.dataTables.min.js') }}"></script>
 
         
+        @section('script')
 
+        @show
         <!-- inline scripts related to this page -->
     </body>
 </html>

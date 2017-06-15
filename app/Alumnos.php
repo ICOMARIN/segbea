@@ -17,5 +17,28 @@ class Alumnos extends Model
         'name', 'email', 'password',
     ];
 
+     /**
+     * Get the representantes for the blog post.
+     */
+    public function representantes()
+    {
+        return $this->hasMany('App\Representantes');
+    }
+     /**
+     * Get the representantes for the blog post.
+     */
+    public function notas()
+    {
+        return $this->hasMany('App\Notas');
+    }
+
+     /**
+     * Get the representantes for the blog post.
+     */
+    public function ayudantias()
+    {
+        return $this->hasMany('App\Ayudantias','alumnos_id');
+    }
+    
     
 }

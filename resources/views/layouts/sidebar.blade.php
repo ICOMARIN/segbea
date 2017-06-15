@@ -103,14 +103,14 @@
 
 						<ul class="submenu">
 							<li class="">
-								<a href="#" class="dropdown-toggle">
+								<a href="#" >
 									<i class="menu-icon fa fa-caret-right"></i>
 									Estudio									
 								</a>								
 							</li>
 
 							<li class="">
-								<a href="#" class="dropdown-toggle">
+								<a href="{{ url('becas/ayudantia') }}" >
 									<i class="menu-icon fa fa-caret-right"></i>
 									Ayudantia									
 								</a>								

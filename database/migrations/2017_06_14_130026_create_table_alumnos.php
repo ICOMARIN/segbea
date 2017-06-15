@@ -24,6 +24,7 @@ class CreateTableAlumnos extends Migration
             $table->string('email');
             $table->string('banco');
             $table->string('nro_cuenta');
+            $table->timestamps();
 
         });
     }

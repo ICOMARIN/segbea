@@ -18,5 +18,17 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+Route::get('alumnos/cargar-nota/{id}', 'AlumnosController@cagarNota');
+Route::post('alumnos/store-nota', 'AlumnosController@storeNota');
 
 Route::resource('alumnos', 'AlumnosController');
+
+Route::get('becas/ayudantia', 'BecasController@index');
+Route::get('becas/ayudantia/{id}', 'BecasController@showAyudantia');
+Route::get('becas/cerate-ayudantia', 'BecasController@cerateAyudantia');
+Route::post('becas/store-ayudantia', 'BecasController@storeAyudantia');
+
+
+
+
+
